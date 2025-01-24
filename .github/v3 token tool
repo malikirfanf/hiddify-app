@@ -1,0 +1,13 @@
+tkinter as tk
+
+def generate_token():
+    token = "ABC123XYZ"
+    print("Generated Token:", token)
+
+root = tk.Tk()
+root.title("Token Generator Tool")
+
+button = tk.Button(root, text="Generate Token", command=generate_token)
+button.pack(pady=20)
+
+root.mainloop()
